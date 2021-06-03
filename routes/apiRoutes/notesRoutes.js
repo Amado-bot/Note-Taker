@@ -1,29 +1,30 @@
-const router = require('express').router
-const {
-    notes
-} = require('../../db/db');
+const router = require('express').Router();
+const { v4: uuidv4 } = require('uuid');
+const { notes } = require('../../db/db');
+const { createNewNote, findById, editNote, removeNote } = require('../../lib/notes');
 
-// return all notes
 router.get('/notes', (req, res) => {
     res.json(notes);
 });
 
-// return notes by id
-app.get('/api/notes/:id', (req, res) => {
-    const result = findById(req.params.id, notes);
-    res.json(result);
+router.post('/notes', (req, res) => {
+
+    // creates new note if id exists, otherwise edits existing note
+    if (!req.body.id) {
+        req.body.id = uuidv4();
+        createNewNote(req.body, notes);
+    } else {
+        editNote(req.body, notes);
+    }
+
+    res.json(req.body);
 });
 
-//create note
-app.post('/notes', (req, res) => {
-    // adds new note to notes array
-    notesArray.push(note)
+router.delete('/notes/:id', (req, res) => {
+    const note = findById(req.params.id, notes);
 
-    // saves notes array to db.json
-    fs.writeFileSync(
-        path.join(__dirname, '../db/db.json'),
-        JSON.stringify({
-            notes: notesArray
-        }, null, 2)
-    );
+    removeNote(note, notes);
+    res.json();
 });
+
+module.exports = router;
