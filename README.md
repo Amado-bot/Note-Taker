@@ -29,9 +29,9 @@ navigate to the page in your browser
 * To discard your note click the trash icon next to the note in the left column.
 * To edit a saved note click the note and edit the note on the left column.
 ## Screenshots
-![Screen-note](public\assets\images\notes-screenshot.PNG)
+![Screen-note](public\assets\images\notes-screenshot.JPG)
 Notes view in app.
-![Screen-front-page](public\assets\images\front-page-screenshot.PNG)
+![Screen-front-page](public\assets\images\front-page-screenshot.JPG)
 landing page in app.
 
 ## Built With 
