@@ -25,13 +25,12 @@ navigate to the page in your browser
 * To start adding notes click "Get Started".
 * Add content to the title and text fields 
 * click the save icon in the top left to save your creation.
-* To clear the current text field click the pencil icon and create your new note.
+* To clear the current text field click the add icon and create your new note.
 * To discard your note click the trash icon next to the note in the left column.
 * To edit a saved note click the note and edit the note on the left column.
-
 ## Screenshots
-![Screenshots]()
-![Screenshots]()
+![Screenshots](public\assets\images\notes-screenshot.PNG)
+![Screenshots](public\assets\images\front-page-screenshot.PNG)
 
 ## Built With 
 * Express.js

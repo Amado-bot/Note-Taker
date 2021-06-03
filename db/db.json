@@ -1,6 +1,24 @@
-[
+{
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Things to do!",
+      "text": "wash the dogs \nwalk the clothes\nvacuum the yard\nmop the parking lot\n",
+      "id": "2534473c-87e5-4abf-bc90-b672d2dd067b"
+    },
+    {
+      "title": "things to watch",
+      "text": "watch the kids \nwatch the kids\nwatch the kids\nwatch the kids\nwatch the kids\n",
+      "id": "2c26dbbd-1493-4d12-9a8f-3118e61c3d0c"
+    },
+    {
+      "title": "things to break",
+      "text": "code ",
+      "id": "f2bce545-87f5-41f7-a50f-d91e1e8be3e4"
+    },
+    {
+      "title": "Things to learn",
+      "text": "code\n",
+      "id": "4e939314-68e0-4829-b14e-0d05c6745612"
     }
-]
+  ]
+}
