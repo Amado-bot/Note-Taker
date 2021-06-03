@@ -19,7 +19,7 @@ install the modules
 start the server 
 3. npm start
 navigate to the page in your browser
-4. http://localhost:3000
+4. http://localhost:3001
 
 ## Usage
 * To start adding notes click "Get Started".
