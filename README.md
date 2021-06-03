@@ -30,7 +30,9 @@ navigate to the page in your browser
 * To edit a saved note click the note and edit the note on the left column.
 ## Screenshots
 ![Screen-note](public\assets\images\notes-screenshot.PNG)
+Notes view in app.
 ![Screen-front-page](public\assets\images\front-page-screenshot.PNG)
+landing page in app.
 
 ## Built With 
 * Express.js
